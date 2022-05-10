@@ -1,81 +1,35 @@
-/*
-let a = 10
-let b = 10
+/*let primeiroValor = prompt ("primeiro valor")
+let segundoValor = prompt ("segunda valor")
 
-console.log(b) Resposta 10
+console.log("soma:", Number(primeiroValor) + segundoValor(Number))
+console.log("multiplcacao:", Number(primeiroValor) * segundoValor(Number))*/
 
-b = 5
-console.log(a, b) resposta 10, 5
--------------------------------------------------
-let a = 10
-let b = 20
-c = a
-b = c
-a = b
+/*const primeiroValorMod = 11
+const segundoValorMod = 30
 
-console.log(a, b, c)
+const RestodaDivisao = primeiroValorMod % segundoValorMod
 
------------------------------------------------------------
+console.log("resto da divisao ---->>", RestodaDivisao)
 
-let horas = prompt("Quantas horas você trabalha por dia?")
-let valor = prompt("Quanto você recebe por dia?")
+let contador = 100
+contador = contador + 20
+contador = contador - 10
+contador = contador * 5
+contador/=4
+console.log (contador)*/
 
-const horasDeTrabalho = Number (horas)
-const valorDeTrabalho = Number (valor)
+/*const soma = 3 + 4
+const multiplicar = (3*5)/2
+const subtrairEmultiplicar = (4-5)*-1
+const restoDaDivisao = 234 % 5
 
-alert(`Voce recebe ${horas/valor} por hora`) 
-*/
+console.log ("soma--->",soma)
+console.log ("multiplicar--->",multiplicar)
+console.log ("subtrair--->",subtrairEmultiplicar)
+console.log ("resto--->",restoDaDivisao)*/
 
-//------------------------------------------------------------------
+const num1 = prompt ("escreva o primeiro numero")
 
-/*
-let nome  //A
-let idade // B
-console.log (typeof nome, idade) 
-// (C) erro undefined, por nao ter recebedo valor
+const num2 = prompt ("escreva o segundo numero")
 
-nome = prompt(" Digite seu nome!")
-idade = prompt("Qigite sua idade!")
-//Nao aconteceu nada porque nao nao tem valores
-
-console.log("Olá", nome,",", "Você tem", idade,"anos de idade",",", "Obrigado!"  )
-*/
-
-/*
-const roupa = "sim"
-const carro = "sim"
-const cidade = "sim"
-
-console.log("você esta usando azul hoje? -", roupa)
-console.log("você mora no Rio? -",  cidade)
-console.log("você tem carro? -", carro)
-*/
-
-/*
-let a = 10
-let b = 25
-c = a 
-a = b
-b = c
-
-console.log("O novo valor de A é", a) 
-console.log("O novo valor de B é", b)
-*/
-/*
-let numero1 = prompt ("digite o primeiro numero")
-let numero2 = prompt ("digite o segundo numero")
-
-function soma(){ var res = parseInt(numero1)
-     + parseInt(numero2); 
-     alert("Reultado da Operação "+ res); } soma();
-*/
-
-/*
-let numero1 = prompt ("digite o primeiro numero")
-let numero2 = prompt ("digite o segundo numero")
-     
-     function soma(){ var res = parseInt(numero1)
-          * parseInt(numero2); 
-          alert("Reultado da Operação "+ res); } soma();
-
-*/
+console.log()
