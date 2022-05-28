@@ -1,0 +1,80 @@
+header {
+   color: rgb(113, 122, 78);
+    text-align: center;  
+   background-color: #18650a77;
+   border: 2px solid rgb(241, 210, 212);
+   font-size: 30px;
+   padding: 1 16 32 32;
+}
+nav{
+    text-align: center;
+    background-color: rgb(50, 77, 55);
+
+}
+
+.pagindex{
+
+    background-color: rgba(73, 188, 109, 0.303);
+    border: 2px solid rgb(233, 226, 203); 
+    color: bisque;
+}
+.square { 
+    
+    width: 35px;
+    height: 35px;
+}
+
+footer {
+    border: 2px solid rgb(241, 210, 212);
+    background-color: #18650a77;
+    text-align: center; 
+}
+.square2{
+    width: 250px;
+    height: 250px;
+}
+
+main {
+    text-align: center;
+    background-color: #18650a77;
+    border: 2px solid rgb(241, 210, 212);
+}
+
+table{
+    text-align: center;
+    
+}
+
+h2{
+    text-align: center;
+
+}
+
+.square3{
+    width: 100px;
+    height: 100px;
+}
+
+.adicionarProduto{
+    color: rgb(113, 122, 78);
+    
+}
+
+input{
+    text-align: center;
+}
+.imgInicio {
+    
+    width: 60px;
+    height: 60px;
+}
+
+Main2 {
+    background-color: #18650a77;
+    border: 2px solid rgb(241, 210, 212); 
+}
+
+li{
+    border: 2px solid rgb(241, 210, 212); 
+}
+
