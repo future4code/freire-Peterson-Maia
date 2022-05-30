@@ -26,6 +26,7 @@ body, html{
 footer{
     color: rgb(171, 194, 193);
     background:rgba(68, 42, 163, 0.338);
+    position: relative;
     width: 100%;
     height: 4%;
     bottom: 0;
