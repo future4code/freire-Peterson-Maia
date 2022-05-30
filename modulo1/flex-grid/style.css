@@ -1,0 +1,98 @@
+* {
+   padding: 0;
+   margin: 0; 
+   box-sizing: border-box;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: mediumvioletred;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+}
+/* header > h2{
+    margin-right: 13cm;
+} */
+
+nav {
+    background-color: #f2d0e0;
+    display: flex;
+    flex-grow: 1;
+}
+main {
+    flex-grow: 1;
+}
+
+
+.container {
+    display: flex;
+    /* height: 100vh; */
+}
+
+body {
+    display: flex;
+    flex-direction: column ;
+    /* PRECISA TER ALTURA PRO FLEX GROW FUNCIONAR NA VERTICAL */
+    height: 100vh;
+}
+
+footer {
+    background-color: mediumvioletred;
+    flex-grow: 1;
+    text-align: center;
+    
+}
+header {
+    flex-grow: 1;
+}
+.container {
+    flex-grow: 13;
+}
+
+main > div{
+    background-color: rgb(251, 249, 248);
+    margin: 20px;
+    height: 45%;
+    width: 15%;
+    box-shadow: 1px 1px 1px darkgray;
+}
+.container > main {
+    display: flex;
+    flex-wrap: wrap;
+  column-gap: 10px;
+  justify-content: center;
+   
+}
+/* .container > nav > ul > li{
+    margin: 20px;
+    margin-left: 1cm;
+    
+} */
+
+#titulo{
+    margin-bottom: 5px;
+    font-size: 6px;
+    text-align: center;
+}
+p{
+    
+    font-size: 4px;
+    text-align: center;
+}
+main > div > img{
+    margin: 0px;
+    height: 75%;
+    width: 100%;
+}
+div > nav > ul{
+    display: block;
+   font-size: 10px;
+   margin: 0 100px 10px 0;
+}
+div > nav > div{
+    display: inline;
+
+}
