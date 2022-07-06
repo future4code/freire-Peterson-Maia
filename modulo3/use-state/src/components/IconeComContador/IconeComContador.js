@@ -3,7 +3,6 @@ import styled from "styled-components"
 
 const IconeContainer = styled.div`
 	display: flex;
-
 	img {
 		margin-right: 5px;
 	}
