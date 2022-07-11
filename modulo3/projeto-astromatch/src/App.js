@@ -1,17 +1,11 @@
-import React from 'react'
-import styled from 'styled-components'
+import Paginas from "./pages/Paginas";
 
-export default function App() {
-  const [curtida, setCurtida] = useState();
-  const [matches, setMatches] = useState();
-
-
-
+function App() {
   return (
-
     <div>
-    
+      <Paginas />
     </div>
   );
 }
 
+export default App;
