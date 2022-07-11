@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.msg{
+    border: 1px solid black;
+    height: 100%;
+    padding-top: 100%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: px ;
+    background-color: greenyellow;
+}
+
+.impN{
+    border-radius: 10px;
+}
+.impM{
+    border-radius: 10px; 
+    padding-right: 10vw;
+    margin-left: 10px;
+    
+}
+button{
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.env{
+    border: 1px solid black;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
+
+.msg{
+    word-wrap: break-word;
+height: 100vh;
+margin: 0;
+padding: 0;
+}
+
+.baixo{
+    
+   width: 100vw;
+   margin-top: 97vh;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.impM{
+    border-radius: 10px; 
+    padding: auto;
+    
+}
+.impM{
+    border-radius: 10px; 
+  padding: auto;
+    
+}
+
+}
