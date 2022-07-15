@@ -1,13 +1,10 @@
 import React from "react"
 import { useNavigate } from "react-router-dom";
+import { goToBack } from "../rotas/cordenator";
 
 export default function ApplicationFormPage(){
     const navigate = useNavigate()
     
-    const goToBack = ()=>{
-        navigate('/lista')
-    }
-
     
     return(
         <div>
@@ -28,7 +25,7 @@ export default function ApplicationFormPage(){
         </form>
 
       
-        <button onClick={goToBack}>Voltar</button>
+        <button onClick={()=>goToBack(navigate)}>Voltar</button>
         <button>Enviar</button>
         </div>
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { goToLoginPage, goToListaPage } from "../rotas/cordenator";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -15,18 +16,11 @@ height: 100vh;
 export default function HomePage() {
     const navigate = useNavigate()
 
-    const goToLoginPage = () => {
-        navigate('/login')
-    }
-
-    const goToListaPage = ()=>{
-        navigate('/lista')
-    }
 
     return (
         <Container>
-            <button onClick={goToListaPage}>Ache sua Viagem</button>
-            <button onClick={goToLoginPage}>Administração</button>
+            <button onClick={()=>goToListaPage(navigate)}>Ache sua Viagem</button>
+            <button onClick={()=>goToLoginPage(navigate)}>Administração</button>
         </Container>
     )
 }

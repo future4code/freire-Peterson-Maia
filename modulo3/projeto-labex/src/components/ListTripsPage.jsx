@@ -1,26 +1,18 @@
 import React from "react"
 import { useNavigate } from "react-router-dom";
+import { goToVoltar, goToForm } from "../rotas/cordenator";
 
 
 export default function ListTripPage(){
 
     const navigate = useNavigate()
 
-    const goToVoltar = () =>{
-        navigate('/')
-    }
-  
-    const goToForm = ()=>{
-        navigate('/Form')
-
-    }
-
 
     return(
         <div>
 
-        <button onClick={goToVoltar}>Voltar</button>
-        <button onClick={goToForm}>Inscrever-se</button>
+        <button onClick={()=>goToVoltar(navigate)}>Voltar</button>
+        <button onClick={()=>goToForm(navigate)}>Inscrever-se</button>
 
         <h1>Lista de Viagens</h1>
         </div>
