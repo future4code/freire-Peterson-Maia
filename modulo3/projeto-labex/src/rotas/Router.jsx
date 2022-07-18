@@ -1,25 +1,21 @@
-import React from 'react'
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import AdminHomePage from '../components/AdminHomePage'
-import ApplicationFormPage from '../components/ApplicationFormPage'
-import HomePage from '../components/HomePage'
-import ListTripPage from '../components/ListTripsPage'
-import LoginPage from '../components/LoginPage'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "../components/Home";
+import Admin from "../components/Administracao";
+import Error from "../components/Error";
+import TripDetailsPage from "../components/TripDetailsPage"
 
+const Router = ()=> {
+    return (
 
+        <BrowserRouter>
+            <Routes>
+                <Route index element={<Home />} />
+                <Route path={"/admin"} element={<Admin />} />
+                <Route path={"admin/:tripId/details"} element={<TripDetailsPage />} />
+                <Route path={"*"} element={<Error/>} />   
+            </Routes>
+        </BrowserRouter>
 
-
-export const Router = () =>{
-return(
-    <BrowserRouter>
-<Routes>
-     <Route index element={<HomePage/>} />
-     <Route path='Home' element={<AdminHomePage/>} />
-     <Route path='login' element={<LoginPage/>}/>
-     <Route path='lista'element={<ListTripPage/>}/>
-     <Route path='Form'element={<ApplicationFormPage/>}/>
-</Routes>
-
-   </BrowserRouter>
- )
+    )
 }
+export default Router
