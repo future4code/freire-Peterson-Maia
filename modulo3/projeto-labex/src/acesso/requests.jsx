@@ -10,7 +10,6 @@ export const requestLogin = (email, password, navigate) => {
     const body ={
         email: email,
         password: password
-        
     }
 
     axios
