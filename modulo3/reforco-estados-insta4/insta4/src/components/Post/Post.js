@@ -43,11 +43,8 @@ function Post(props) {
   const [numeroCurtidas, setNumeroCurtidas] = useState(0);
   const [comentando, setComentando] = useState(false);
   const [numeroComentarios, setNumeroComentarios] = useState(0);
-  // const [userName, setUserName] = useState(0);
-  // const [userPhoto, setUserPhoto] = useState(0);
-  // const [postPhoto, setPostFoto] = useState(0);
-  
 
+  
   const onClickComentario = () => {
     setComentando(!comentando);
   };
