@@ -104,7 +104,7 @@ insert into filmes(id, nome, sinopse, release_date, rating)
 values(
 "004",
 "toy story",
-"Brinquedos que falam e vivem suas vidas kk",
+"Brinquedos que falam e vivem suas vidas ",
 22/12/1995,
 8
 );
