@@ -1,6 +1,9 @@
 import { Response, Request } from "express";
+import insertProducts from "../data/insertProducts";
 import { productsInser } from "../Types/typesProducts";
 import { productsData } from "../Types/typesProducts";
+insertProducts
+
 
 export default async function createProducts(req:Request, res: Response) {
     try{
