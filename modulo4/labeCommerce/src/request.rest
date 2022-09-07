@@ -1,0 +1,27 @@
+POST http://localhost:3003/user
+Content-Type: application/json
+
+
+{
+    "name":"peterson",
+    "email":"peterson@lbn.com.br",
+    "password":"123456"
+}
+
+
+###
+
+GET  http://localhost:3003/user
+
+
+###
+
+POST http://localhost:3003/products
+Content-Type: application/json
+
+
+{
+    "name":"",
+    "price":"",
+    "image_url": ""
+}
