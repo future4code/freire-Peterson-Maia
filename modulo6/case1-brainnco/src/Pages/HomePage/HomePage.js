@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import moment from 'moment'
 import 'moment/locale/pt-br'
-import Logo from '../../Img/Logo.png'
-import { BASE_URL } from '../../Constants/links'
-import { colors } from '../../Constants/changeColors'
+import Logo from '../../img/Logo.png'
+import { BASE_URL } from '../../constants/links'
+import { colors } from '../../constants/changeColors'
 import useRequestData from '../../Hooks/UseRequestData'
-import Background from '../../Components/Background'
+import {Background} from '../../Components/Background'
 import { Container, MainPage, SectionRight, Info, Select, LogoAlign, Footer, P } from "./styled"
 
 const HomePage = () => {

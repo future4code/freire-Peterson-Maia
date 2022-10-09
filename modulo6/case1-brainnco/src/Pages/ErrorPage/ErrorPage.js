@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import { goToHome } from '../../Routes/Coordinates'
-import Erro from '../../Img/Error.png'
+import { goToHome } from '../../router/Coordinates'
+import Erro from '../../img/Error.png'
 import { DivContainer, DivText, Img } from './styled'
 
 const ErrorPage = () => {
