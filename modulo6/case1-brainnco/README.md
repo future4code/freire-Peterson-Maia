@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# BrainnCo Lottery 🍀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Neste site você pode acessar os resultados da loteria como mega-sena, lotomania, lotofácil, quina, timemania, etc. Percebe-se que cada seleção que você faz, o background muda de cor e os números também. 
 
-## Available Scripts
+### Layout do site
+<img src="src/Img/Site.jpeg" height="650px"/>
 
-In the project directory, you can run:
+### Publicação 🎨
+Projeto Case - BrainnCo publicado na plataforma surge:
+- Link: https://lottery-brainnco-case.surge.sh
 
-### `npm start`
+## Instalação
+Para rodar o projeto na máquina local é necessário a instalação do node js:
+* [Node.js](https://nodejs.org/en/) / Use a versão <i>16.17.0 LTS</i>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tendo o node.js instalado, efetue o comando para instalar as dependências necessários para rodar o projeto localmente:
+```
+npm install 
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Pós instalação das dependências, execute o comando necessário para rodar o projeto:
+`npm start`
 
-### `npm test`
+Por padrão a aplicação rodará localmente na porta 3000.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Construído com
 
-### `npm run build`
+* [VSCode](http://www.vscode.com) - IDE
+* [Postman](https://postman.com) - Gerenciamento da API
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 Tecnologias usadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  - [React](https://pt-br.reactjs.org/)  - O react é uma biblioteca Java Scrip para desenvolvimento de interfaces web.
+  - [Styled-components](https://styled-components.com/) - O styled components permite criar uma aplicação baseadas em pequenos componentes, possibilitando o reaproveitamento de código e padronização do layout.
+  - [Axios](https://github.com/axios/axios) - Axios é um cliente HTTP baseado em Promises para fazer requisições. Pode ser utilizado tanto no navegador quanto no Node. js ou qualquer serviço de API.
+  <br/><br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔧 Recursos utilizados
 
-### `npm run eject`
+- Layout: https://www.figma.com/file/H2qrYBCFMf4didYmxRwTxP/Brainn-Frontend-Challenge
+- API: https://brainn-api-loterias.herokuapp.com
+- Tipografia (webfont): [Montserrat](https://fonts.google.com/specimen/Montserrat)
+<br/><br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Créditos💻
+ 👋🏽 Entre em contato!
+ <br/>
+* Peterson Maia - https://www.linkedin.com/in/petersonmaia/
+* peterson.maia20@gmail.com
